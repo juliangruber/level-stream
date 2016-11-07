@@ -12,16 +12,16 @@
     "test": "tap test/*.js"
   },
   "dependencies": {
-    "through": "~2.2.7",
-    "duplexer": "0.0.3",
-    "monotonic-timestamp": "0.0.8",
-    "level-livefeed": "~0.1.3",
+    "through": "~2.3.8",
+    "duplexer": "0.1.1",
+    "monotonic-timestamp": "0.0.9",
+    "level-livefeed": "~0.2.0",
     "level-delete-range": "~0.1.0"
   },
   "devDependencies": {
     "tap": "*",
     "levelUp": "git://github.com/juliangruber/node-levelup#783958daaed48bf8367af1c4977b5e75ae06b9dd",
-    "rimraf": "~2.1.4"
+    "rimraf": "~2.5.4"
   },
   "keywords": [
     "leveldb",
